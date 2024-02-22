@@ -49,12 +49,47 @@ label {
 .amount {
     width: 100%;
     height: 40px;
-    font-size: large;
+    font-size: 16px;
     margin-top: 5px;
-
+    padding: 10px;
 }
 
 button {
+    padding: 6px 12px;
+    font-size: 16px;
+    color: black;
+    margin-top: 15px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 20px;
+    display: none;
+}
+
+.step2 {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    display: none;
+}
+
+.step2 label {
+    text-align: center;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.step2 .cash {
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 5px;
+    padding: 10px;
+}
+
+.step2 button {
     padding: 6px 12px;
     font-size: 16px;
     color: black;
